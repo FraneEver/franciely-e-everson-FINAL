@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Sono', sans-serif; 
+}
+
+.cabeçalho{
+  background-color: #DB69A6;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+   width: 7%;
+}
+
+.cabeçalho-lista-item{
+   display: inline-block;
+   margin: 0 15px;
+   font-size: 24px;
+}
+
+.escola-imagem{
+  width: 20%;
+}
+
+.escola{
+  background-image:-moz-linear-gradient(#DB69A6,#8EE8E2);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.escola-div-conteudo{
+  width: 35%;
+}
+
+.escola-titulo{
+  padding: 24px 0 ;
+}
+
+.shampoo-imagem{
+  width: 120px;
+}
+ 
+.produtos-icone{
+  width: 24px;
+}
+
+.produtos-div{
+  text-align: center;
+}
+
+.coleira-imagem{
+  width: 120px;
+}
+
+.pente-imagem{
+  width: 120px;
+}
+
+.ração-gato-imagem{
+  width: 120px;
+}
+
+.ração-imagem{
+  width: 120px;
+}
+
+.estudante-titulo{
+  text-align: center;
+  padding: 50px 0;
+  background-color: #8EE8E2;
+}
+
+.produtos-todos{
+  display: grid;
+  grid-template-columns:17% 17% 17% 17% 17% ;
+  background-color: #8EE8E2;
+}
+
+.rodape {
+  background-color: #8EE8E2;
+  text-align: center;
+}
+
+.rodape-imagem {
+  height: 60px;
+  padding: 12px 0;
+
+}
